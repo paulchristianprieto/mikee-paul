@@ -13,7 +13,7 @@ import "../styles/globals.css"
 const pages = [
   { href: "/", name: "Our Story" },
   { href: "/travel-stay", name: "Travel & Stay" },
-  { href: "/rsvp", name: "RSVP" },
+  // { href: "/rsvp", name: "RSVP" },
 ];
 
 const animation = {
@@ -36,7 +36,7 @@ const animation = {
     }
   },
   transition: {
-    duration: 0.7
+    duration: 0.5
   }
 };
 

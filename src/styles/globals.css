@@ -1,3 +1,7 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
 html,
 body {
   padding: 0;
@@ -15,6 +19,7 @@ body {
   align-items: center;
   height: 100vh;
   width: 100vw;
+  background: #D8F3DC;
 }
 
 .page-wrap {
@@ -37,23 +42,23 @@ body {
   font-size: 8rem;
 }
 .page-index {
-  background-color: hotpink;
+  background-color: #B7E4C7;
 }
 
 .page-one {
-  background-color: palegoldenrod;
+  background-color: #B7E4C7;
 }
 
 .page-two {
-  background-color:#459e9e
+  background-color: #B7E4C7;
 }
 
 .page-three {
-  background-color: palevioletred;
+  background-color: #B7E4C7;
 }
 
 .page-four {
-  background-color: palegreen;
+  background-color: #B7E4C7;
 }
 
 .page-wrap > h1 {
@@ -63,15 +68,16 @@ body {
 .ui-wrap {
   position: absolute;
   display: flex;
+  flex: 1;
+  width: 100%;
+  padding: 15px 0;
   flex-direction: column;
   align-items: center;
-  top: 14px;
   z-index: 1;
 }
 .navigation {
-  font-size: 2rem;
+  font-size: 1.5rem;
   display: flex;
-  justify-content: space-between;
   align-items: center;
 }
 .anim-switch {
@@ -106,7 +112,8 @@ body {
 }
 
 a.selected {
-  background-color: #000;
+  color: #1B4332;
+  text-decoration: underline;
 }
 
 a {
