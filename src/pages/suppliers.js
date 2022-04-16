@@ -6,9 +6,8 @@ export default function Suppliers({ suppliers }) {
     <div className="page">
       <div className="w-full grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-4 px-6">
         {suppliers.map((supplier, index) => {
-
           return (
-            <div className="">
+            <div key={supplier.name}>
               <div>
                 <div className="flex flex-col pb-2">
                   <div className="flex text-xl font-medium justify-center">
