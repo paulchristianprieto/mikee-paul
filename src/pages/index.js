@@ -1,10 +1,8 @@
-import Head from 'next/head'
 import Image from 'next/image'
-import styles from '../styles/Home.module.css'
 
 export default function Home() {
   return (
-    <div className="page page-two">
+    <div className="page">
       <h1>Our Story</h1>
     </div>
   )

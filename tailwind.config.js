@@ -4,6 +4,10 @@ module.exports = {
     "./src/components/**/*.{js,ts,jsx,tsx}",
   ],
   theme: {
+    fontFamily: { 
+      'logo': ['Homemade Apple', 'cursive'],
+      'cursive': ['IM Fell Great Primer', 'cursive']
+    },
     colors: {
       'theme-1': '#B7E4C7',
       'theme-2': '#95D5B2',
