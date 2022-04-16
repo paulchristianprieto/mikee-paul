@@ -63,7 +63,7 @@ export default function Navigation({
                     linkProps={{href: page.href}}
                     aProps={{
                       className: `${router.route === page.href ? "selected text-theme-7" : ""} 
-                        cursor-pointer max-w-max pb-2 font-cursive`,
+                        cursor-pointer max-w-max pb-2 font-cursive text-2xl md:text-4xl md:pb-4`,
                       transition: { duration: 0.2 },
                       whileHover: { scale: 1.1 },
                       whileTap: { scale: 0.9 },
