@@ -18,7 +18,7 @@ function MyApp({ Component, pageProps, router }) {
     <div className="app-wrap overflow-hidden relative">
       <Head>
         <link rel="preconnect" href="https://fonts.googleapis.com" />
-        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossOrigin />
         <link href="https://fonts.googleapis.com/css2?family=Homemade+Apple&display=swap" rel="stylesheet" />
         <link href="https://fonts.googleapis.com/css2?family=Homemade+Apple&family=IM+Fell+Great+Primer:ital@1&display=swap" rel="stylesheet" />
       </Head>
