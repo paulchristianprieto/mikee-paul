@@ -15,7 +15,7 @@ export default function Navigation({
 
   return (
     <>
-      <div className="navigation w-full p-4 relative justify-center">
+      <div className="navigation w-full p-6 relative justify-center">
         <MenuButton
           isOpen={isOpen}
           onClick={() => setOpen(!isOpen)}
@@ -23,9 +23,9 @@ export default function Navigation({
           color="#081C15"
           lineProps={{ strokeLinecap: "round" }}
           transition={{ type: "spring", stiffness: 260, damping: 20 }}
-          className="absolute z-20 top-4 left-4"
+          className="absolute z-20 top-6 left-6"
         />
-        <div className="flex justify-center font-logo text-2xl">
+        <div className="flex justify-center font-logo text-2xl md:text-4xl">
           Mikee & Paul
         </div>
       </div>
