@@ -59,10 +59,8 @@ export default function Navigation({
               {pages.map((page) => {
                 return (
                   <ButtonLink
-                    linkProps={{
-                      href: page.href,
-                      key: page.href
-                    }}
+                    key={page.href}
+                    linkProps={{href: page.href}}
                     aProps={{
                       className: `${router.route === page.href ? "selected text-theme-7" : ""} 
                         cursor-pointer max-w-max pb-2 font-cursive`,
