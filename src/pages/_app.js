@@ -2,9 +2,6 @@ import Head from "next/head";
 import "normalize.css"
 import Navigation from "../components/Navigation"
 import "../styles/globals.css"
-import { config } from '@fortawesome/fontawesome-svg-core'
-import '@fortawesome/fontawesome-svg-core/styles.css'
-config.autoAddCss = false
 
 const pages = [
   { href: "/", name: "Our Story" },
@@ -21,7 +18,7 @@ function MyApp({ Component, pageProps }) {
     <div className="app-wrap relative">
       <Head>
         <link rel="preconnect" href="https://fonts.googleapis.com" />
-        <link rel="preconnect" href="https://fonts.gstatic.com" crossOrigin />
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossOrigin="true" />
         <link href="https://fonts.googleapis.com/css2?family=Homemade+Apple&display=swap" rel="stylesheet" />
         <link href="https://fonts.googleapis.com/css2?family=Homemade+Apple&family=IM+Fell+Great+Primer:ital@1&display=swap" rel="stylesheet" />
       </Head>
